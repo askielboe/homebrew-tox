@@ -1,7 +1,7 @@
 require 'formula'
 
 class Toxic < Formula
-  head "git://github.com/Tox/toxic", :using => :git
+  head "git://github.com/askielboe/toxic", :using => :git
   homepage "https://tox.im"
 
   depends_on "libtoxcore"
